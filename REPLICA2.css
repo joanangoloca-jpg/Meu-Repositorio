@@ -1,0 +1,143 @@
+*{
+	gap:30px;
+	margin:0;
+	padding:10;
+	box-sizing:border-box;
+	
+}
+
+body{
+	font-family:Arial;
+	line-height:1.6;
+	background:#f4f4f4;
+	color:#222;
+}
+
+h1,h2,h3{
+	line-height:1.3;
+}
+
+header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background: linear-gradient(135deg, #667eea, 764ba2);
+	padding:1rem 2rem;
+	background:blue;
+}
+
+.logo{
+	font-size:1.5rem;
+	font-weight:bold;
+}
+
+nav ul{
+	display:flex;
+	list-style:none;
+	gap:2 rem;
+}
+
+nav a{
+	text-decoration:none;
+	font-weight:500;
+}
+
+nav a:hover{
+	text-decoration:underline;
+	background:WHITE;
+}
+
+.hero{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	min-height:200px;
+	background: linear-gradient(135deg, #ff6b6b, #feca57);
+	color:BLUE;
+	border-radius:16px;
+	margin:2.5 rem 2 rem;
+	padding:2 rem;
+}
+
+
+
+}
+
+.cards-section {
+	display:flex;
+	text-align:center;
+	font-size:2rem;
+	margin-bottom:5rem;
+	margin:20px auto;
+	padding:15px;
+	border:1px solid black;
+	
+
+}
+
+.cards{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	max-width:1rem 2rem;
+	padding:1rem 2rem;
+	margin:2rem 3rem;
+	gap:1.5rem;
+	border:10px;
+	border-radius:10px;
+}
+
+.card{
+	background:#fff;
+	border-radius:12pox;
+	box-shadow:0 4px 10px rgba(0,0,0,0,1);
+	padding:1.5 rem;
+	min-width:280px;
+	max-width:350px;
+	flex:1 1 300px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	text-align:center;
+	
+}
+
+
+.card h3{
+	font-size:1.5 rem;
+	margin-bottom:0.5 rem;
+}
+
+.features-section{
+	margin:
+}
+
+.features-title{
+	text-align:center;
+	font-size:2 rem;
+	margin-bottom:2 rem;
+}
+
+.features-block{
+	display:flex;
+	  display:inline-block;
+	  position:relative;
+	gap:2 rem;
+	margin-bottom:2 rem ;
+	background:#fff;
+	border-radius:12px;
+	box-shadow:0 0px 0px;
+	padding:2rem;
+	
+}
+
+
+
+.roda{
+	display:flex;
+	background:black;
+	color:white;
+	justify-content:center;
+}
